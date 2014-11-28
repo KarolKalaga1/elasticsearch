@@ -21,6 +21,55 @@
 	<version>1.4.0</version>
     <type>jar</type>
 </dependency>
+
+
+
+<dependency>
+      <groupId>openehr</groupId>  
+       <artifactId>openehr-rm-core</artifactId>  
+       <version>1.0.1</version> 
+<scope>system</scope>
+<systemPath>${project.basedir}/src/main/resources/openehr-rm-core.jar</systemPath>
+</dependency>
+	<dependency>
+      <groupId>openehr</groupId>  
+       <artifactId>measure-serv</artifactId>  
+       <version>1.0.1</version> 
+<scope>system</scope>
+<systemPath>${project.basedir}/src/main/resources/measure-serv.jar</systemPath>
+</dependency>
+	<dependency>
+      <groupId>openehr</groupId>  
+       <artifactId>mini-termserv</artifactId>  
+       <version>1.0.1</version> 
+<scope>system</scope>
+<systemPath>${project.basedir}/src/main/resources/mini-termserv.jar</systemPath>
+</dependency>
+	<dependency>
+      <groupId>openehr</groupId>  
+       <artifactId>openehr-aom</artifactId>  
+       <version>1.0.1</version> 
+<scope>system</scope>
+<systemPath>${project.basedir}/src/main/resources/openehr-aom.jar</systemPath>
+</dependency>
+	<dependency>
+      <groupId>openehr</groupId>  
+       <artifactId>openehr-ap</artifactId>  
+       <version>1.0.1</version> 
+<scope>system</scope>
+<systemPath>${project.basedir}/src/main/resources/openehr-ap.jar</systemPath>
+</dependency>
+	<dependency>
+      <groupId>openehr</groupId>  
+       <artifactId>openehr-rm-domain</artifactId>  
+       <version>1.0.1</version> 
+<scope>system</scope>
+<systemPath>${project.basedir}/src/main/resources/openehr-rm-domain.jar</systemPath>
+</dependency>
+	
+
+
+
       
     <dependency>
       <groupId>junit</groupId>

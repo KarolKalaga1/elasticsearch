@@ -1,23 +1,11 @@
 package pl.mateusz;
 
-import org.openehr.am.archetype.ontology.QueryBindingItem;
-import org.openehr.am.archetype.ontology.TermBindingItem;
 
-import java.io.IOException;
-import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import org.elasticsearch.action.admin.indices.mapping.put.PutMappingResponse;
+
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.Client;
-import org.elasticsearch.client.transport.TransportClient;
-import org.elasticsearch.common.settings.ImmutableSettings;
-import org.elasticsearch.common.transport.DummyTransportAddress;
-import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;
-import static org.elasticsearch.common.xcontent.XContentFactory.*;
-import org.elasticsearch.index.query.SimpleQueryParser.Settings;
 import org.elasticsearch.node.Node;
 import static org.elasticsearch.node.NodeBuilder.nodeBuilder;
 
@@ -37,7 +25,7 @@ public class App
     {
         try 
         { 
-            Archetype
+            //Archetype
             //create node
             Node node = nodeBuilder().clusterName("Erasmus").node();
             
